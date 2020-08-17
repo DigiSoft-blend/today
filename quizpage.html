@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">-
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!--link rel="icon" href="../../favicon.ico"-->
+
+    <title>Dashboard Template for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    
+    <!-- Custom styles for this template -->
+    <link  href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"  rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/css/quiz.css" rel="stylesheet">
+
+   
+</head>
+
+ <body >
+   
+    <div class="container-fluid">
+      <div class="row">
+
+        <!--div class ="col-md-12" style="background-color: rgb(2, 96, 219); color: white;">
+          <a href="index.html"> <button type="button" class="btn btn-default" style="display: flex; float: right;" >  <span class="fa fa-bars"  style="color: black;  font-size: 30px;" ></span>  </button></a> 
+        </div-->
+        
+        
+      <div class="col-md-12">
+        <div class="container-fluid mynav">
+          <span class="fa fa-smile" style="font-size: 55px;"></span>
+       <a href="page2.html"> <button type="button" class="btn btn-default" style="display: flex; float: right; margin-top: 5px;" >  <span class="fa fa-bars"  style="color: black;  font-size: 30px;" ></span>  </button></a> 
+        </div>
+      </div>
+       
+
+       <div class="col-md-10 main">
+        <div class="container" style=" width: 100%; font-size: 30px; border-radius: 2px;">  
+              <div class="header">
+                 <h3 style="font-size: 40px; color: crimson;">OXFORD</h3>
+                 <h2 style="font-size: 30px; color: crimson;">UNIVERSITY</h2>
+              </div>
+              <h1 > Question type: <span style="color: chartreuse;">Nigerian</span> </h1>
+              <hr>
+              
+          <h3>(1) Which year did Nigeria gain her independence ?</h3>
+
+          <div id="myDiv" class="col-md-12 div1">
+           <br> 
+          <span id="s1">A)<i> 1960</i></span>  
+          <br>
+          <span>B)<i> 2004</i></span>
+          <h3 id="result" style="display: flex; float: right;"></h3>  
+          <br>
+          <span>C)<i> 1961</i></span> 
+          <br>
+          <span>D)<i> 1997</span> 
+          <br>
+          <div  style="text-align: center; color: white;">
+            <input class="textbox" type="text" placeholder="Enter Option" id="text1" size="10px">
+          <button type="button" class="btn btn-primary" onclick="btn1();">check</button>
+          </div>
+          <br>
+          </div>
+           
+          <div style="text-align: center;">
+            <br><br>
+            <span class="fa fa-graduation-cap" style="font-size: 50px; color: crimson;"></span>
+          </div>
+          
+          <h3 >(2) Who was the first prime minister of Nigera ?</h3>
+          <div class="col-md-12 div1">
+            <br>
+          <span>A)<i> Abubakar Balewa Tafawa </i></span>  
+          <br>
+          <span>B)<i> Tafawa Balewa Salamu</i></span>
+          <h3 id="result2" style="display: flex; float: right;"></h3>  
+          <br>
+          <span id="s2">C)<i> Abubakar Tafawa Balewa</i></span> 
+          <br>
+          <span>D)<i> Donald Trump</span> 
+          <br>
+          <div  style="text-align: center; color: white;">
+            <input class="textbox"  id="text2" type="text" placeholder="Enter Option" size="10px">
+          <button type="button" class="btn btn-primary" onclick="btn2();">check</button>
+          </div>
+          <br>
+          </div>
+          <br><br>
+
+          <div style="text-align: center;">
+            <span class="fa fa-graduation-cap" style="font-size: 50px; color: crimson;"></span>
+          </div>
+          
+          <h3>(3) Who is Tony Stark in a movie called The Avengers ?</h3>
+
+          <div class="col-md-12 div1">
+            <br>
+          <span>A)<i> Spider Man </i></span>  
+          <br>
+          <span>B)<i> Captain America</i></span>
+          <h3 id="result3" style="display: flex; float: right;"></h3>  
+          <br>
+          <span>C)<i> The Flash</i></span> 
+          <br>
+          <span id="s3">D)<i> Iron Man</span> 
+          <br>
+          <div style="text-align: center;">
+            <input class="textbox" id="text3" type="text" placeholder="Enter Option" size="10px">
+          <button type="button" class="btn btn-primary" onclick="btn3();">check</button>
+          </div>
+          <br> 
+          </div>
+          <br><br>
+
+          <div style="text-align: center;">
+            <span class="fa fa-graduation-cap" style="font-size: 50px; color: crimson;"></span>
+          </div>
+          
+          <h3 >(4) Who is the CEO of Start Innovation Hub  ?</h3>
+
+          <div class="col-md-12 div1">
+            <br>
+          <span>A)<i> Mr Emmanuel Dynasty  </i></span> 
+          <br>
+          <span id="s4">B)<i> Mr Hanson Johnson</i></span>
+          <h3 id="result4" style="display: flex; float: right;"></h3>  
+          <br>
+          <span>C)<i> Donald Trump </i></span> 
+          <br>
+          <span>D)<i> Mr Silas Udofia</span> 
+          <br>
+          <div style="text-align: center;">
+            <input class="textbox" id="text4" type="text" placeholder="Enter Option" size="10px"> 
+          <button type="button" class="btn btn-primary" onclick="btn4();">check</button>
+          </div>
+          <br>
+          </div>
+          <br><br>
+
+          <div style="text-align: center;">
+            <span class="fa fa-graduation-cap" style="font-size: 50px; color: crimson;"></span>
+          </div>
+
+          
+          <h3>(5) The Angel said to mary, fear not mary for you have found favour with GOD. Which Angel siad this ?</h3>
+
+          <div class="col-md-12 div1">
+            <br>
+          <span>A)<i> Angel Silas </i></span>  
+          <br>
+          <span>B)<i> Angel Micheal</i></span>
+          <h3 id="result5" style="display: flex; float: right;"></h3 >
+          <br>
+          <span>C)<i> Angel Rapheal</i></span> 
+          <br>
+          <span id="s5">D)<i> Angel Gabriel</i></span> 
+          <br>
+          <div style="text-align: center;">
+            <input class="textbox" id="text5" type="text" placeholder="Enter Option" size="10px">
+          <button type="button" class="btn btn-primary" onclick="btn5();">check</button>
+          </div>
+          <br>
+          </div>
+          <br><br>
+         
+        </div>
+       </div>
+
+       
+       <div class="col-md-2 main" >
+        <br>
+        <div class="container-fluid result " style="text-align: center;" >
+          <h1>Results</h1>
+          <hr>
+          <h3 id="score"></h3>
+          <button type="button" class="btn btn-success" onclick="btn6();" >Check Your Score</button>
+         <br><br>
+       </div>
+        <br>
+       <div class="container-fluid result" >
+        <h1 style="text-align: center;">Answers</h1>
+        <hr>
+        <h3 id="score"></h3>
+        <h3 id="ans1">1) :</h3>
+        <hr>
+        <h3 id="ans2">2) :</h3>
+        <hr>
+        <h3 id="ans3">3) :</h3>
+        <hr>
+        <h3 id="ans4">4) :</h3>
+        <hr>
+        <h3 id="ans5">5) :</h3>
+        <hr>
+       <br><br>
+     </div>
+
+      </div>
+
+      </div>
+    </div>
+
+8i
+   
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/js/all.min.js"></script>
+    <script src="js/quiz.js"></script>
+
+ </body>
+</html>   

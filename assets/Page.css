@@ -1,0 +1,143 @@
+body{
+   
+    background-image: url("images/android_honeycomb_2-wallpaper-1280x1024.jpg");;
+    background-color: #cccccc;
+    overflow: hidden;
+    height: 1000px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: calibri;
+
+    
+ }
+
+
+ /*
+ @keyframes
+ animation-name
+ animation-duration
+ animation-delay
+ animation-iteration-count
+ animation-direction
+ animation-timing-function
+ animation-fill-mode
+ animation
+ */
+
+
+
+
+ .rotate_right{
+    -ms-transform: rotate(20deg);
+    -webkit-transform: rotate(20deg); 
+    transform: rotate(20deg);
+}
+
+
+.rotate_left{
+   -ms-transform: rotate(-20deg);
+   -webkit-transform: rotate(-20deg); 
+   transform: rotate(-20deg);
+}
+
+
+
+ a.link{
+   position: relative;  
+   font-size: 70px;
+   text-decoration: none;
+ }
+ a.link:hover{
+    border-radius: 20px; 
+    color:  #add2fc;
+    box-shadow: 0px 5px 30px 0px  #add2fc;
+    top: 10px;
+ }
+
+.mynav{
+    opacity: 0.7;
+    background-color: black; 
+    border-radius: 10px;
+    box-shadow: 0px 5px 30px 0px  #8ab0db;
+}
+
+ 
+ 
+
+ .blend-notify-user{
+    animation-name: notifyUser;
+    visibility: hidden;
+    position: relative;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay: 2s;
+    box-shadow: 0px 5px 30px 0px  #8ab0db;
+    text-align: center;
+    border-radius: 40px;
+    top: 30px;
+ }
+
+
+ .blend-notify{
+    animation-name: notifyNormal;
+    visibility: hidden;
+    position: relative;
+    animation-duration: 4s;
+    animation-iteration-count: 9;
+    animation-direction: alternate;
+    animation-delay: 2s;
+    box-shadow: 0px 5px 30px 0px  #8ab0db;
+    text-align: center;
+    border-radius: 40px;
+ }
+
+ 
+
+
+ .welcom-text1{
+     position: relative;
+     visibility: hidden;
+     color: rgb(149, 199, 233); 
+     border-radius: 20px; 
+     text-align: center;
+     box-shadow: 0px 5px 30px 0px  #8ab0db;
+     animation-name: WelcomeAni;
+     animation-duration: 3s;
+ }
+
+
+ 
+
+ @keyframes WelcomeAni{
+    
+     0%{ visibility: visible; color: rgb(138, 237, 240); top: 0px; }
+     50%{color: thistle; top: 200px; font-size: 50px; color: rgb(19, 252, 213); opacity: 1; }
+     100%{color: thistle; top: 0px; color: rgb(138, 237, 240); opacity: 0; }
+     
+    
+ }
+
+ 
+
+@keyframes notifyUser {
+    0% {visibility: visible;}
+    50%{ opacity: 1;   color: rgb(17, 209, 243);}
+    55%{ opacity: 1;   color: rgb(32, 17, 243);}
+    60%{ opacity: 1;   color: rgb(243, 228, 17);}
+    75%{ opacity: 1;   color: rgb(255, 46, 175);}
+    80%{ opacity: 1;   color: rgb(255, 46, 245);}
+    95%{ opacity: 1;   color: rgb(17, 243, 111);}
+    100%{ opacity: 0.1;  color: rgb(18, 238, 154); }
+}
+
+@keyframes notifyNormal{
+   
+    0%{ visibility: visible; color: rgb(14, 224, 252); top: 0px; }
+    55%{  background-color: rgb(13, 178, 243); color: thistle; top: 20px; font-size: 50px; color: rgb(8, 8, 8); opacity: 1; }
+    65%{  background-color: rgb(13, 178, 243); color: thistle; top: 20px; font-size: 50px; color: rgb(8, 8, 8); opacity: 1; }
+    75%{  background-color: rgb(13, 178, 243); color: thistle; top: 20px; font-size: 50px; color: rgb(8, 8, 8); opacity: 1; }
+    100%{ background-color: rgb(13, 178, 243); color: thistle; top: 0px; color: rgb(5, 5, 39); opacity: 0; }
+    
+}
